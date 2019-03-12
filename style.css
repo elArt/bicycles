@@ -1,0 +1,288 @@
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url(img/header.png) top no-repeat;
+    display: block;
+    height: 800px;
+}
+
+div nav ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-top: 35px;
+    vertical-align: middle;
+}
+div nav ul li{
+    margin-top: 32px;
+}
+div nav ul li a {
+    color: #4d4959;
+    font-size: 10px;
+    font-weight: bold;
+    }
+#top-header{
+    size: 100%;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+#content{
+    text-align: center;
+}
+.ng {
+    height: 469px;
+}
+.ng img{
+    margin-top: 118px;
+}
+.ng h1{
+    font-size: 14px;
+    color: #353738;
+    margin-top: 35px;
+}
+.ng p {
+    font-size: 13px;
+    color: #848789;
+    margin-top: 34px;
+    margin-bottom: 142px;
+}
+
+.imgrc {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.imgrc>img{
+    width: 100%;
+    height: 100%;
+}
+.rc {
+    padding: 0;
+    margin-top: 70px;
+}
+h2 {
+    font-size: 14px;
+    color: #353738;
+    margin-top: 31px;
+    margin-bottom: 26px;
+}
+.rc p {
+    font-size: 13px;
+    color: #848789;
+}
+.seat{
+    display: flex;
+    width: 100%;
+    margin-top: 95px;
+    vertical-align: bottom;
+}
+
+.la .imgboriosa {
+    margin: 0;
+    padding: 0;
+}
+.la .imgboriosa img{
+    width: 100%;
+    height: 100%;
+}
+.boriosa {
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+.boriosa p {
+    font-size: 13px;
+    color: #848789;
+    margin-top: 26px;
+    margin-bottom: 107px;
+}
+.boriosa>.img4 {
+    width: 100%;
+}
+
+.rbike1>img, .rbike3>img, .rbike2 {
+    width: 100%;
+    height: 100%;
+}
+.rbike1, .rbike3, .rbike2 {
+    margin: 0;
+    padding: 0;
+}
+.rbikeintro {
+    height: 100%;
+}
+.rbikeintro p{
+    font-size: 11px;
+    color: #848789;
+    margin-top: 26px;
+    margin-bottom: 106px;
+}
+.rbikeintro .M {
+    margin-top: 58px;
+    margin-bottom: 24px;
+}
+.pic{
+    width: 100%;
+    vertical-align: bottom;
+}
+.AOD{
+    height: 469px;
+    width: 100%;
+}
+.AOD .carousel slide{
+    display: flex;
+    width: 100%;
+}
+.carousel-indicators{
+    color: black;
+}
+.carousel-inner img {
+    margin-top: 123px;
+    margin-bottom: 36px;
+}
+.carousel-inner p{
+    margin-top: 28px;
+    margin-bottom: 104px;
+}
+.carousel-indicators li{
+    background-color: #848789;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+}
+.carousel-indicators .active {
+   background-color: black;
+}
+.shopimg img{
+    width: 100%;
+}
+.shopimg, .shopbutton{
+    margin: 0;
+    padding: 0;
+}
+.buttonshop, .onlyimg  {
+    width: 100%;
+}
+.mail{
+    height: 469px;
+}
+.mail img {
+    margin-top: 109px;
+    margin-bottom: 38px;
+}
+.mail h2 i {
+    text-align: 17px;
+    color: #8c8f91;
+    margin-bottom: 37px;
+}
+
+.form-group input {
+    width: 320px;
+    height: 69px;
+    border: none;
+    margin-bottom: 111px;
+}
+.form-group button {
+    width: 126px;
+    height: 69px;
+    border-radius: 0;
+    background-color: #64c29e;
+    border-color: #64c29e;
+}
+footer {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+footer .address {
+    text-align: left;
+}
+footer .address h2, footer .address i {
+    margin-left: 250px;
+    text-align: 10px;
+}
+.address, .network, .logofooter{
+    margin: 0;
+    padding: 0;
+    margin-top: 108px;
+
+}
+
+@media (min-width: 1600px){
+    header {
+        background-size: 100%;
+    }
+    .retro, .la, .vo, .shop {
+        display: flex;
+        height: 600px;
+    }
+    
+
+}
+@media (min-width: 1469px){
+    .seat{
+        height: 231px;
+    }
+    .pic {
+        height: 216px;
+    }
+    .img4{
+        height: 226px;
+    }
+}
+@media (max-width: 1600px){
+    footer .address h2, footer .address i {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 992px){
+footer .address {
+    text-align: center;}
+}
+
+@media (max-width: 1000px){
+    header {
+        background-size: 1000px;
+        height: 500px;
+    }
+    .carousel-inner img {
+        margin-top: 65px;
+    }
+    footer .address h2, footer .address i {
+        margin-left: 0;
+    }
+    .form-group input {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 768px){
+    header {
+        background-size: 768px;
+        height: 384px;
+    }
+}
+@media (max-width: 690px){
+    header {
+        background-size: 690px;
+        height: 345px;
+    }
+    div nav ul{
+        display: block;
+        text-align: center;
+    }
+    div nav ul li{
+        margin-top: 0px;
+    }
+    div nav ul li a{
+        color: #64c29e;
+    }
+
+}
